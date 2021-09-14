@@ -22,6 +22,7 @@ export class AppComponent {
     options: [
       { optionId: 'O1-1', pointToQuestion: 'Q2' },
       { optionId: 'O1-2', pointToQuestion: 'Q3' },
+      { optionId: 'O1-3', pointToQuestion: null },
     ],
   };
   question2 = <Question>{
